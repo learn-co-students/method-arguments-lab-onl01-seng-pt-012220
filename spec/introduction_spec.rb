@@ -1,4 +1,12 @@
-require "spec_helper"
+def introduction
+ end
+ def introduction(name)
+   puts "Hi, my name is #
+   {name}."
+  end
+  
+   
+  require "spec_helper"
 
 describe "#introduction" do 
   it "takes in an argument of a name and puts out a phrase with that name using string interpolation" do 
