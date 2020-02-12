@@ -1,12 +1,16 @@
+def introduction
+end
+
 def introduction(name)
-  puts " Hi, my name is #
-  {Josh}."
-  end
-  # Lib/introduction.RUBY_VERSION
-
-def  introduction
 end
-#lib/introduction.RUBY_VERSION
 
-def  introduction(name)
+def introduction(name)
+  puts "Hi, my name is #
+  {name}."
 end
+
+def introduction_with_language
+  puts "Hi, my name is Josh and I am 
+  learning to program in ruby".
+end
+
